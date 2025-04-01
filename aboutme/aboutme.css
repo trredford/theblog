@@ -1,0 +1,113 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fafbf3;
+    color: #4a4a4a;
+    width: 100%;
+    background-color: #7B9E89;
+  }
+  
+  header {
+    background-color: #f3eedf;
+    
+    margin: 0;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 40px;
+    padding: 40px 20px 40px;
+  }
+
+  .back-float {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    font-family: 'Just Me Again Down Here', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FEB92B;
+    text-decoration: none;
+    z-index: 1000;
+    transition: color 0.3s ease;
+}
+
+.back-float:hover {
+    color: #fafbf3;
+}
+  
+  .about-title {
+    font-family: 'Just Me Again Down Here', cursive;
+    color: #f7b52c;
+    font-size: 150px;
+    margin-top: 0px;
+    margin-bottom: 150px;
+    padding-bottom: 20px;
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  
+  .about-section {
+    display: flex;
+    align-items: center;
+    background-color:#f7b52c ;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    padding: 30px;
+    gap: 30px;
+  }
+  
+  .about-section-reverse {
+
+    display: flex;
+    align-items: center;
+    background-color: #b4b7ff;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    padding: 30px;
+    gap: 30px;
+  }
+ 
+  .about-image img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 25px solid #b4b7ff;
+  }
+
+  .about-image-camila img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 25px solid #F3969E;
+  }
+  
+  .about-text {
+    flex: 1;
+    color: #fafbf3;
+  }
+  
+  .about-text h2 {
+    font-family: 'Just Me Again Down Here', cursive;
+    font-size: 60px;
+    color: #7B9E89;
+    margin-bottom: 60px; 
+    text-align: center;
+
+    
+  }
+  
+  .about-text p {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+
+

@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.main-content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafbf3;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    background-color: #7B9E89;
+    padding: 40px 20px 40px; 
+    position: relative;
+    text-align: center;
+}
+
+
+.site-title {
+    font-family: "Just Me Again Down Here", cursive;
+    font-size: 150px;
+    color: #FEB92B;
+    margin: 0;
+}
+
+
+.nav-float {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-family: "Just Me Again Down Here", cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FEB92B;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-float:hover {
+    color: #fafbf3;
+}
+
+h1{
+    .just-me-again-down-here-regular {
+        font-family: "Just Me Again Down Here", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      font-family: "Just Me Again Down Here", cursive;
+      
+}
+.gallery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.preview-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b4b7ff;
+    padding: 5px;
+    border: 22px;
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 340px;
+    transition: transform 0.2s;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+
+.preview-card:hover {
+    transform: scale(1.03);
+}
+
+.preview-card img {
+    width: 265px;
+    height: 350px;
+    border: #b4b7ff;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto 10px auto;
+    margin-top: 22px;
+}
+
+.preview-card h3 {
+    
+    font-size: 30px;
+    font-family: "Just Me Again Down Here", cursive;
+}
+
+.preview-card p {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.content-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.intro {
+    
+    
+    max-width: 1400px;
+    margin: 0 auto 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #7B9E89;
+    color: #fafbf3;
+    text-align: center;
+    border-radius: 15px;
+    max-width: 100%;
+    margin: 10px auto 10px;
+}
+
+.intro p {
+    line-height: 1.5;
+}
+
+.review-criteria{
+    padding: 20px;
+}
+.review-des-card {
+    
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: #b4b7ff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px auto;
+    gap: 30px;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-des-card img {
+    width: 450px;
+    height: 600px;
+    border: 15px solid #f7c948; /* yellow border */
+    border-radius: 50px;
+    flex-shrink: 0;
+}
+
+
+.right-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fafbf3;
+} 
+
+.content-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.right-box h2 {
+    font-size: 55px;
+    text-align: center;
+}
+
+.review-des-card h2 {
+    color: #5e7e65;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Just Me Again Down Here", cursive;
+      
+}
+
+.review-des-card p {
+    color: #fafbf3;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.pros-cons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 40px;
+}
+
+
+.pros-cons strong {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 17px;
+    color: #ffffff;
+    font-family: "Just Me Again Down Here", cursive;
+}
+
+.pros-cons li {
+    font-size: 15px;
+    margin-bottom: 4px;
+    color: #fafbf3;
+}
+
+.pros, .cons {
+    width: 48%
+}
+
+.pros h3, .cons h3 {
+    color: #F3969E;
+    font-size: 22px;
+    margin-top: 8%;
+    font-family: "Just Me Again Down Here", cursive;
+    .just-me-again-down-here-regular {
+        f.just-me-again-down-here-regular {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Just Me Again Down Here", cursive;
+}
+
+        font-weight: 400;
+        font-style: normal;
+      }
+    
+      
+}
+
+.pros ul, .cons ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #7B9E89;
+
+}
+
+.pros li, .cons li{
+    font-size: 15px;
+    margin-bottom: 4px;
+    text-align: left;
+}
+ul {
+    font-size: large;
+    padding-left: 35px;
+    color: #7B9E89;
+    margin: 10px;
+}
+
+
+li {
+    margin: 1px 0;
+    font-size: 18px;
+    color: #fafbf3;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    .just-me-again-down-here-regular {
+        font-family: "Just Me Again Down Here", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+    font-family: "Just Me Again Down Here", cursive;
+      
+}
+
+p {
+    color: #fafbf3;
+}
+
+h3 {
+    color: #7B9E89;
+    font-size: 25px;
+    .just-me-again-down-here-regular {
+        font-family: "Just Me Again Down Here", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      font-family: "Just Me Again Down Here", cursive;
+}
+
+
+.list-criteria{
+    color: #F3969E;
+    text-align: left;
+    margin: 10px;
+}
+
+footer {
+    font-size: 18px;
+    color: #fafbf3;
+    border-radius: 15px;
+    padding: 3px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.back-to-top-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 3px solid #f7c948; /* yellow border */
+    border-radius: 10px;
+    background-color: transparent;
+    color: #5e7e65;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    
+}
+
+.back-to-top-btn:hover {
+    background-color: #f7c948;
+    color: white;
+}
+.review-criteria {
+    color: #F3969E;
+    font-size: 25px;
+
+}
+
+footer p {
+    background: none;
+    font-size: medium;
+    color: #7B9E89;
+}
+
+ 
