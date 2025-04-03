@@ -34,7 +34,7 @@ header {
 
 .site-title {
     font-family: "Just Me Again Down Here", cursive;
-    font-size: 100px;
+    font-size: 150px;
     color: #FEB92B;
     margin: 0;
 }
@@ -104,17 +104,21 @@ h1{
     display: block;
     margin: 0 auto 10px auto;
     margin-top: 22px;
+    text-decoration: none;
 }
 
 .preview-card h3 {
     
     font-size: 30px;
     font-family: "Just Me Again Down Here", cursive;
+    text-decoration: none;
 }
+
 
 .preview-card p {
     width: 250px;
     margin-bottom: 20px;
+    text-decoration: none;
 }
 
 .content-wrapper {
@@ -122,6 +126,79 @@ h1{
     margin: 0 auto;
     padding: 20px;
 }
+
+
+
+.carousel {
+    position: relative;
+    width: 450px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 15px;
+   
+    flex-shrink: 0;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: #f7c948;
+    border-radius: 15px;
+    display: none; /
+    
+  }
+  
+  .carousel-image.active {
+    display: block; 
+  }
+  
+  .carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 5px 12px;
+    color: #7B9E89;
+    font-weight: bold;
+    border-radius: 50%;
+  }
+  
+  .carousel .prev {
+    left: 10px;
+  }
+  
+  .carousel .next {
+    right: 10px;
+  }
+  
+  .carousel button:hover {
+    background-color: #f7c948;
+    color: white;
+  }
+
+  .carousel-dots {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .carousel-dots .dot {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .carousel-dots .dot.active {
+    background-color: #f7c948;
+  }
 
 .intro {
     
@@ -282,7 +359,7 @@ li {
 
 h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     .just-me-again-down-here-regular {
         font-family: "Just Me Again Down Here", cursive;
         font-weight: 400;
@@ -356,5 +433,7 @@ footer p {
     font-size: medium;
     color: #7B9E89;
 }
+
+ 
 
  
