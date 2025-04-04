@@ -255,6 +255,39 @@ h1{
     color: #fafbf3;
 } 
 
+video {
+    width: 450px;
+    height: 600px;
+    border: 15px solid #f7c948; 
+    border-radius: 50px;
+    flex-shrink: 0;
+    
+}
+
+.mute-toggle {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    z-index: 10;
+    padding: 4px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .mute-toggle svg {
+    width: 28px;
+    height: 28px;
+    fill: rgba(255, 255, 255, 0.7); /* semi-transparent white */
+  }
+  
+  .mute-toggle:hover svg {
+    fill: rgba(255, 255, 255, 1); /* full white on hover */
+  }
+
+
+
 .content-title {
     text-align: center;
     font-size: 32px;
