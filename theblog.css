@@ -25,7 +25,7 @@ body {
 
 header {
     width: 100%;
-    background-color: #7B9E89;
+    background-color: #70A384;
     padding: 40px 20px 40px; 
     position: relative;
     text-align: center;
@@ -78,7 +78,7 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #b4b7ff;
+    background-color: #A3A7FE;
     padding: 5px;
     border: 22px;
     border-radius: 15px;
@@ -99,7 +99,7 @@ h1{
 .preview-card img {
     width: 265px;
     height: 350px;
-    border: #b4b7ff;
+    border: #A3A7FE;
     border-radius: 15px;
     display: block;
     margin: 0 auto 10px auto;
@@ -202,13 +202,13 @@ h1{
 .intro {
     
     
-    max-width: 1400px;
+    max-width: 1000px;
     margin: 0 auto 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    background-color: #7B9E89;
+    background-color: #70A384;
     color: #fafbf3;
     text-align: center;
     border-radius: 15px;
@@ -229,7 +229,7 @@ h1{
     height: fit-content;
     display: flex;
     flex-direction: row;
-    background-color: #b4b7ff;
+    background-color: #A3A7FE;
     border-radius: 20px;
     padding: 20px;
     margin: 30px auto;
@@ -264,27 +264,7 @@ video {
     
 }
 
-.mute-toggle {
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    border: none;
-    background: none;
-    cursor: pointer;
-    z-index: 10;
-    padding: 4px;
-    transition: opacity 0.3s ease;
-  }
-  
-  .mute-toggle svg {
-    width: 28px;
-    height: 28px;
-    fill: rgba(255, 255, 255, 0.7); /* semi-transparent white */
-  }
-  
-  .mute-toggle:hover svg {
-    fill: rgba(255, 255, 255, 1); /* full white on hover */
-  }
+
 
 
 
@@ -343,8 +323,8 @@ video {
 }
 
 .pros h3, .cons h3 {
-    color: #F3969E;
-    font-size: 22px;
+    color: #FDAAB1;
+    font-size: px;
     margin-top: 8%;
     font-family: "Just Me Again Down Here", cursive;
     .just-me-again-down-here-regular {
@@ -365,7 +345,7 @@ video {
 .pros ul, .cons ul {
     list-style-type: disc;
     padding-left: 20px;
-    color: #7B9E89;
+    color: 70A384;
 
 }
 
@@ -406,7 +386,7 @@ p {
 }
 
 h3 {
-    color: #7B9E89;
+    color: #5e7e65;
     font-size: 25px;
     .just-me-again-down-here-regular {
         font-family: "Just Me Again Down Here", cursive;

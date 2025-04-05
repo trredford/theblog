@@ -66,7 +66,7 @@ body {
 
     display: flex;
     align-items: center;
-    background-color: #b4b7ff;
+    background-color: #A3A7FE;
     border-radius: 15px;
     margin-bottom: 40px;
     padding: 30px;
@@ -78,7 +78,7 @@ body {
     height: 500px;
     object-fit: cover;
     border-radius: 50%;
-    border: 25px solid #b4b7ff;
+    border: 25px solid #A3A7FE;
   }
 
   .about-image-camila img {
