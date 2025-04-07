@@ -103,7 +103,7 @@ h1{
     border-radius: 15px;
     display: block;
     margin: 0 auto 10px auto;
-    margin-top: 22px;
+    margin-top: 14px;
     text-decoration: none;
 }
 
@@ -126,6 +126,14 @@ h1{
     margin: 0 auto;
     padding: 20px;
 }
+
+.intro .welcome {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 18px;
+  }
+
 
 
 
@@ -277,16 +285,10 @@ video {
 .right-box h2 {
     font-size: 55px;
     text-align: center;
+    color: #5e7e65;
 }
 
-.review-des-card h2 {
-    color: #5e7e65;
-    font-size: 40px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-family: "Just Me Again Down Here", cursive;
-      
-}
+
 
 .review-des-card p {
     color: #fafbf3;
@@ -313,7 +315,7 @@ video {
 }
 
 .pros-cons li {
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 4px;
     color: #fafbf3;
 }
@@ -364,7 +366,7 @@ ul {
 
 li {
     margin: 1px 0;
-    font-size: 18px;
+    font-size: 15px;
     color: #fafbf3;
     text-align: left;
 }
@@ -383,6 +385,7 @@ h2 {
 
 p {
     color: #fafbf3;
+    font-size: 18px;
 }
 
 h3 {
@@ -430,6 +433,11 @@ footer {
     
 }
 
+.text-content {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
 .back-to-top-btn:hover {
     background-color: #f7c948;
     color: white;
@@ -440,6 +448,12 @@ footer {
 
 }
 
+  .review-criteria-title {
+    color: #f7c948;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+  
 footer p {
     background: none;
     font-size: medium;

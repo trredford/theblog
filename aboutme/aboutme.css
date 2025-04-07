@@ -51,6 +51,8 @@ body {
     margin: 0 auto;
     padding: 0px;
   }
+
+  
   
   .about-section {
     display: flex;
@@ -105,7 +107,7 @@ body {
   }
   
   .about-text p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.6;
   }
 
