@@ -135,7 +135,9 @@ h1{
   }
 
 
-
+.intro {
+    width: 1250px;
+}
 
 .carousel {
     position: relative;
@@ -279,7 +281,7 @@ video {
 .content-title {
     text-align: center;
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .right-box h2 {
@@ -360,7 +362,7 @@ ul {
     font-size: large;
     padding-left: 35px;
     color: #7B9E89;
-    margin: 10px;
+    margin: 5px;
 }
 
 
@@ -370,6 +372,14 @@ li {
     color: #fafbf3;
     text-align: left;
 }
+
+.text-content p {
+    margin-bottom: 2px;
+  }
+  
+  .text-content ul {
+    margin-top: 2px;
+  }
 
 h2 {
     text-align: center;
@@ -449,7 +459,7 @@ footer {
 }
 
   .review-criteria-title {
-    color: #f7c948;
+    color: #F3969E;
     font-size: 55px;
     margin-bottom: 10px;
 }
