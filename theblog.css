@@ -39,6 +39,13 @@ header {
     margin: 0;
 }
 
+.site-sub-title {
+    font-family: "Just Me Again Down Here", cursive;
+    font-size: 30px;
+    color: #FEB92B;
+    margin: 0;
+}
+
 
 .nav-float {
     position: absolute;
@@ -347,6 +354,8 @@ video {
       
 }
 
+
+
 .pros ul, .cons ul {
     list-style-type: disc;
     padding-left: 20px;
@@ -412,7 +421,7 @@ h3 {
 
 
 .list-criteria{
-    color: #F3969E;
+    color: #5e7e65;
     text-align: left;
     margin: 10px;
 }
